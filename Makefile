@@ -7,5 +7,7 @@ init:
 	sudo docker exec -it lemp-php bash -c "cd /var/www/html/website/wallet;php artisan migrate"
 test:
 	sudo docker exec -it lemp-php bash -c "cd /var/www/html/website/wallet/;./vendor/bin/behat"
+totalTransactionCalc:
+	sudo docker exec -it lemp-php bash -c "cd /var/www/html/website/wallet/; php artisan transactions:calc-total-amount"
 
 	 
