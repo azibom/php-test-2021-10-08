@@ -58,7 +58,7 @@ Scenario: Add money to ali's wallet and moahmmad's wallet serveral times and che
   Then user with userId 1 should have -900 dollars more to the wallet
   Then user with userId 2 should have 60 dollars more to the wallet
 ```
-You can run this command for test the app with diffrent scenarios
+You can run this command for test the app with different scenarios
 ```
 make test
 ```
@@ -88,7 +88,7 @@ And then add this line at the end of the file and that is all
 ### How send a request
 #### add-money
 You can send data to http://localhost:81/api/add-money with `post` method <br>
-Your request body should have `amout (int)` and `user_id (int)` fields <br>
+Your request body should have `amout (int)` and `user_id (int)` fields <br> (send them in `form-data`)
 
 #### get-balance
 You can fetch http://localhost:81/api/get-balance/1 with `get` method <br>
