@@ -26,8 +26,6 @@ class GetBalanceRequest extends BaseRequest
      */
     public function rules()
     {
-        $user_id = $this->route()->parameter('user_id');
-        $this->merge(['user_id' => $user_id]);
         return [
             'user_id' => 'required|numeric',
         ];
