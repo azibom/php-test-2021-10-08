@@ -7,10 +7,10 @@
 docker-compose up -d
 make init
 ```
-3.Done :) <br>
+3.Done :sunglasses::fire::fire: <br>
 Now you can use apis from this links <br> http://localhost:81/api/add-money and http://localhost:81/api/get-balance/1
 
-### Run behavioral tests
+### Run behavioral tests :fire:
 I wrote some behavioral tests for the app, somethings like this ...
 ```
 Scenario: Add money to ali's wallet serveral times and check and money amout 
